@@ -103,6 +103,12 @@
         }
       ]
     }
-  ]
-
+  ],
+  // 分包预下载规则
+  "preloadRule": {
+    "pages/my/my": {
+      "network": "all",
+      "packages": ["pagesMember"]
+    }
+  }
 }
